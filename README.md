@@ -30,7 +30,7 @@ zsh git_setup.sh
 
 sw_vers
 
-touch ~/.ssh/config and write
+touch ~/.ssh/config and write:
 
 Host *
   

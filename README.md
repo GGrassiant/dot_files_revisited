@@ -45,3 +45,8 @@ Alfred with double tap on CMD
 - ***IDE profile*** 
 
 from jetBrain online
+
+***more aliases***
+touch ~/.aliases
+nano ~/.zprofile  --> Ajouter : source ~/.aliases
+nano ~/.aliases  --> Mettre tes alias

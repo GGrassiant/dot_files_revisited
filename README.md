@@ -12,7 +12,11 @@ mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "TYPE
 
 cat ~/.ssh/id_ed25519.pub
 
-ssh -T git@github.com or ssh-add ~/.ssh/id_ed25519 or in the UI
+pbcopy < ~/.ssh/id_rsa.pub
+
+akouter les clef dans le repo or ssh-add ~/.ssh/id_ed25519
+
+ssh -T git@github.com to check
 
 - ***dotfiles and config***
 
@@ -38,3 +42,7 @@ touch ~/.aliases
 nano ~/.zprofile  --> Ajouter : source ~/.aliases
 
 nano ~/.aliases  --> Mettre tes alias
+
+
+https://github.com/rbenv/rbenv
+

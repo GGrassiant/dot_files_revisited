@@ -46,3 +46,10 @@ nano ~/.aliases  --> Mettre tes alias
 
 https://github.com/rbenv/rbenv
 
+install:
+
+- node
+- npm
+- homebrew
+- yarn
+

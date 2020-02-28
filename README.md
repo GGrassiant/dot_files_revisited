@@ -1,21 +1,31 @@
 # dot_files_revisited
 
 - ***make sure xcode is installed***
+
 ```xcode-select --install```
 
 - ***Install Homebrew***
+
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+
 
 ```brew update```
 
+
 ```function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }```
+
 ```install_or_upgrade "git"```
+
 ```install_or_upgrade "wget"```
+
 ```install_or_upgrade "imagemagick"```
+
 ```install_or_upgrade "jq"```
+
 ```install_or_upgrade "openssl"```
 
 - ***install iTerm***
+
 https://iterm2.com/
 
 - ***Install zsh***

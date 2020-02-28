@@ -47,6 +47,7 @@ add keys to repo
 if does not work: ```ssh-add ~/.ssh/id_ed25519```
 
 - ***config***
+
 ```zsh install.sh```
 ```zsh git_setup.sh```
 
@@ -71,11 +72,12 @@ https://www.alfredapp.com/
 https://www.jetbrains.com/toolbox-app/
 
 ***more aliases***
-touch ~/.aliases
 
-nano ~/.zprofile  --> add : source ~/.aliases
+```touch ~/.aliases```
 
-nano ~/.aliases  --> Write aliases
+```nano ~/.zprofile```  --> add : source ~/.aliases
+
+```nano ~/.aliases```  --> Write aliases
 
 ***Others***
 install:

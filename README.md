@@ -1,57 +1,74 @@
 # dot_files_revisited
 
+- ***make sure xcode is installed***
+```xcode-select --install```
+
+- ***Install Homebrew***
+```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+
+```brew update```
+
+```function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }```
+```install_or_upgrade "git"```
+```install_or_upgrade "wget"```
+```install_or_upgrade "imagemagick"```
+```install_or_upgrade "jq"```
+```install_or_upgrade "openssl"```
+
 - ***install iTerm***
+https://iterm2.com/
 
 - ***Install zsh***
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 - ***Link Github***
 
-mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "TYPE_YOUR_EMAIL@HERE.com"
+```mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "EMAIL@HERE.com"```
 
-cat ~/.ssh/id_ed25519.pub
+```cat ~/.ssh/id_ed25519.pub```
 
-pbcopy < ~/.ssh/id_rsa.pub
+add keys to repo
 
-akouter les clef dans le repo or ssh-add ~/.ssh/id_ed25519
+```ssh -T git@github.com``` to check
 
-ssh -T git@github.com to check
+if does not work: ```ssh-add ~/.ssh/id_ed25519```
 
-- ***dotfiles and config***
+- ***config***
+```zsh install.sh```
+```zsh git_setup.sh```
 
-touch ~/.ssh/config and write:
 
-Host *
+```touch ~/.ssh/config``` and write:
+
+
+```Host *```
   
-  AddKeysToAgent yes
+```AddKeysToAgent yes```
   
-  UseKeychain yes
+```UseKeychain yes```
 
-- ***For keyboard*** 
+```git config --global core.editor "nano"```
 
-Alfred with double tap on CMD
+- ***Install Alfred*** 
 
-- ***IDE profile*** 
+https://www.alfredapp.com/
 
-from jetBrain online
+- ***Install IDE*** 
 
-git config --global core.editor "nano"
+https://www.jetbrains.com/toolbox-app/
 
 ***more aliases***
 touch ~/.aliases
 
-nano ~/.zprofile  --> Ajouter : source ~/.aliases
+nano ~/.zprofile  --> add : source ~/.aliases
 
-nano ~/.aliases  --> Mettre tes alias
+nano ~/.aliases  --> Write aliases
 
-https://github.com/rbenv/rbenv
-
+***Others***
 install:
-
 - node
 - nvm
 - npm
-- homebrew
 - yarn
 - react native deps

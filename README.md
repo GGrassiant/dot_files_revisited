@@ -80,6 +80,7 @@ https://www.jetbrains.com/toolbox-app/
 ```nano ~/.aliases```  --> Write aliases
 
 - ***Others***
+
 install:
 - node
 - nvm

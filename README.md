@@ -71,6 +71,12 @@ https://www.alfredapp.com/
 
 https://www.jetbrains.com/toolbox-app/
 
+
+- ***Install GITKraken*** 
+
+https://www.gitkraken.com/download/mac
+
+
 - ***more aliases***
 
 ```touch ~/.aliases```

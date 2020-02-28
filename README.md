@@ -71,7 +71,7 @@ https://www.alfredapp.com/
 
 https://www.jetbrains.com/toolbox-app/
 
-***more aliases***
+- ***more aliases***
 
 ```touch ~/.aliases```
 
@@ -79,7 +79,7 @@ https://www.jetbrains.com/toolbox-app/
 
 ```nano ~/.aliases```  --> Write aliases
 
-***Others***
+- ***Others***
 install:
 - node
 - nvm

@@ -36,6 +36,8 @@ Alfred with double tap on CMD
 
 from jetBrain online
 
+git config --global core.editor "nano"
+
 ***more aliases***
 touch ~/.aliases
 
@@ -43,13 +45,13 @@ nano ~/.zprofile  --> Ajouter : source ~/.aliases
 
 nano ~/.aliases  --> Mettre tes alias
 
-
 https://github.com/rbenv/rbenv
 
 install:
 
 - node
+- nvm
 - npm
 - homebrew
 - yarn
-
+- react native deps

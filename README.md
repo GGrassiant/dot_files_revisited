@@ -76,6 +76,10 @@ https://www.jetbrains.com/toolbox-app/
 
 https://www.gitkraken.com/download/mac
 
+- ***Install Postman*** 
+
+https://www.postman.com/
+
 
 - ***more aliases***
 

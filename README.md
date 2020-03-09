@@ -61,7 +61,7 @@ if does not work: ```ssh-add ~/.ssh/id_ed25519```
   
 ```UseKeychain yes```
 
-```git config --global core.editor "nano"```
+```git config --global core.editor "webstorm"```
 
 - ***Install Alfred*** 
 
@@ -76,6 +76,7 @@ https://www.jetbrains.com/toolbox-app/
 
 https://www.gitkraken.com/download/mac
 
+
 - ***Install Postman*** 
 
 https://www.postman.com/
@@ -88,6 +89,17 @@ https://www.postman.com/
 ```nano ~/.zprofile```  --> add : source ~/.aliases
 
 ```nano ~/.aliases```  --> Write aliases
+
+
+```touch ~/.aliases```
+
+```nano ~/.zprofile```  --> add : source ~/.aliases
+
+```nano ~/.aliases```  --> Write aliases
+
+- ***Install Android Studio***
+
+https://www.udemy.com/course/react-native-the-practical-guide/learn/lecture/15815790#overview
 
 - ***Others***
 

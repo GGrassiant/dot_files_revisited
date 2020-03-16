@@ -46,6 +46,8 @@ add keys to repo
 
 if does not work: ```ssh-add ~/.ssh/id_ed25519```
 
+```brew install hub```
+
 - ***config***
 
 ```zsh install.sh```

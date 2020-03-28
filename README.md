@@ -2,7 +2,7 @@
 
 - ***make sure xcode is installed***
 
-```xcode-select --install```
+```xcode-select --install``` -- also check app store
 
 - ***Install Homebrew***
 

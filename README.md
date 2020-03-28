@@ -107,5 +107,11 @@ install:
 - React DevTool
 - React Native debbuger
 - Redux DevTool
+- Json viewer
+- Laspass
+- ColorZilla
+- RecordIt
+- Fullpage screencapture
+- Wappalyzer
 - nvm
 - yarn

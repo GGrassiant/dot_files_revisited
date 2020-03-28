@@ -18,13 +18,13 @@
 
 ```install_or_upgrade "git"```
 
-```install_or_upgrade "wget"```
+```install_or_upgrade "wget"``` -- optional
 
-```install_or_upgrade "imagemagick"```
+```install_or_upgrade "imagemagick"``` -- optional
 
-```install_or_upgrade "jq"```
+```install_or_upgrade "jq"``` -- optional
 
-```install_or_upgrade "openssl"```
+```install_or_upgrade "openssl"``` -- optional
 
 - ***install iTerm***
 
@@ -93,21 +93,19 @@ https://www.postman.com/
 ```nano ~/.aliases```  --> Write aliases
 
 
-```touch ~/.aliases```
+- ***Install node and npm***
+```https://nodejs.org/en/```
 
-```nano ~/.zprofile```  --> add : source ~/.aliases
+- ***Install React Native Deps***
 
-```nano ~/.aliases```  --> Write aliases
-
-- ***Install Android Studio***
-
-https://www.udemy.com/course/react-native-the-practical-guide/learn/lecture/15815790#overview
+https://reactnative.dev/docs/environment-setup
 
 - ***Others***
 
 install:
-- node
+- Flipper
+- React DevTool
+- React Native debbuger
+- Redux DevTool
 - nvm
-- npm
 - yarn
-- react native deps

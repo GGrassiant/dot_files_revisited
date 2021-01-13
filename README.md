@@ -4,27 +4,18 @@
 
 ```xcode-select --install``` -- also check app store
 
-- ***Install Homebrew***
+- ***Install Homebrew and git***
 
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
-
-
 ```brew update```
-
 
 
 ```function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }```
 
 ```install_or_upgrade "git"```
 
-```install_or_upgrade "wget"``` -- optional
-
-```install_or_upgrade "imagemagick"``` -- optional
-
-```install_or_upgrade "jq"``` -- optional
-
-```install_or_upgrade "openssl"``` -- optional
+```install_or_upgrade "wget"```
 
 - ***install iTerm***
 
@@ -45,6 +36,10 @@ add keys to repo
 ```ssh -T git@github.com``` to check
 
 if does not work: ```ssh-add ~/.ssh/id_ed25519```
+
+```https://github.com/rbenv/rbenv```
+
+install ruby 2.6
 
 ```brew install hub```
 
@@ -92,9 +87,36 @@ https://www.postman.com/
 
 ```nano ~/.aliases```  --> Write aliases
 
+- ***Install node and npm/nvm***
 
-- ***Install node and npm***
-```https://nodejs.org/en/```
+https://nodejs.org/en/
+  
+https://github.com/nvm-sh/nvm
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+Nvm install 14
+```
+
+https://classic.yarnpkg.com/en/docs/install/#mac-stable
+
+- ***Install Docker and Docker Desktop***
+
+https://docs.docker.com/get-docker/
+
+- ***Install Redis***
+
+https://redis.io/topics/quickstart
+
+- ***Install PostgreSQL & PGAdmin***
+
+https://formulae.brew.sh/formula/postgresql
+
+https://www.pgadmin.org/download/
+
+- ***Install MongoDb***
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
 - ***Install React Native Deps***
 
@@ -103,15 +125,20 @@ https://reactnative.dev/docs/environment-setup
 - ***Others***
 
 install:
-- Flipper
-- React DevTool
-- React Native debbuger
-- Redux DevTool
-- Json viewer
-- Laspass
-- ColorZilla
-- RecordIt
-- Fullpage screencapture
-- Wappalyzer
-- nvm
-- yarn
+- [React DevTool](https://www.npmjs.com/package/react-devtools)
+- [Flipper](https://fbflipper.com/)
+- [Apollo Developer Tool](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm)
+- [Redux DevTool](https://github.com/reduxjs/redux-devtools)
+- Gatsby Cli : ```npm install -g gatsby-cli```
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+- Vercel cli: ```npm i -g vercel@latest```
+- Netlify cli: ```https://docs.netlify.com/cli/get-started/#installation```
+- [Json viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+- [Lastpass](https://www.lastpass.com/)
+- [ColorZilla](https://www.colorzilla.com/chrome/)
+- [Loom](https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb)
+- [Fullpage screencapture](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en)
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en)
+- [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en)
+
+note: Print the path with `echo -e ${PATH//:/\\n}`

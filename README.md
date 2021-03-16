@@ -71,9 +71,13 @@ if does not work: ```ssh-add ~/.ssh/id_ed25519```
 - Config zsh
 
 ```zsh install.sh```
+
 ```zsh git_setup.sh```
+
 ```touch ~/.aliases```
+
 ```nano ~/.zprofile```  --> add : source ~/.aliases
+
 ```nano ~/.aliases```  --> Write aliases
 
 

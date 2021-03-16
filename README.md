@@ -1,5 +1,4 @@
-# dot_files_revisited
-
+### Reinstall Checklist
 
 - macOS (reboot and cmd+R)
 
@@ -8,8 +7,6 @@
 - Adjust settings
 
 - Install Chrome
-
-### Reinstall Checklist
 
 - Install Alfred
 

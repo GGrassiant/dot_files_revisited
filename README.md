@@ -58,7 +58,7 @@ install ruby 2.6
   
 ```UseKeychain yes```
 
-```git config --global core.editor "webstorm"```
+```git config --global core.editor "webstorm"``` or ```git config --global core.editor "code --wait"```
 
 - ***Install Alfred*** 
 
@@ -111,6 +111,8 @@ https://redis.io/topics/quickstart
 - ***Install PostgreSQL & PGAdmin***
 
 https://formulae.brew.sh/formula/postgresql
+
+https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist
 
 https://www.pgadmin.org/download/
 

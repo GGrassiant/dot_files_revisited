@@ -87,6 +87,8 @@ if does not work: ```ssh-add ~/.ssh/id_ed25519```
 
 - Install brew and first casks
 
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
